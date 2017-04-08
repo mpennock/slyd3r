@@ -1,0 +1,33 @@
+.navbar-custom {
+	background: #359CD6;
+}
+.navbar-custom a {
+	color: #fff;
+}
+.navbar-custom ul li a:hover, .navbar-custom a:hover {
+	background: #2C69AC;
+}
+button.navbar-toggle.collapsed {
+	color: #fff;
+}
+
+
+.img-list {
+	width: 980px;
+}
+
+.list-img {
+	width: 300px;
+	/*height: 300px;*/
+	/*float: left;*/
+	display: inline-block;
+}
+.list-img:hover {
+	opacity: .5;
+	cursor: pointer;
+	/*outline: 1px dotted blue;*/
+}
+
+.img-selected {
+	outline: 5px solid red;
+}
