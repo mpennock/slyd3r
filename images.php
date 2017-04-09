@@ -32,13 +32,11 @@ if(isset($_FILES['image'])){
 	<button><a href="">Add New</a></button>
 </div>
 <div id="img-list">
-  <img id="b" class="list-img img-responsive" src="img/slide_img/pup.jpg">
 <?php  
 
 for ($i=0; $i < $list_length; $i++) {
-	$img = $i + 2; 
-	// echo $img_list[$img];
-	echo "<div class=\"list-img\"><img class=\"list-img img-responsive\" src=\"img/slide_img/" . $img_list[$img] . "\"></div>";
+	$img = $i + 2;
+	echo "<div><img class=\"list-img img-responsive\" src=\"img/slide_img/" . $img_list[$img] . "\"></div>";
 }
 ?>
 </div>

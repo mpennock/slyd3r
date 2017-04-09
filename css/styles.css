@@ -23,11 +23,12 @@ button.navbar-toggle.collapsed {
 	display: inline-block;
 }
 .list-img:hover {
-	opacity: .5;
+	opacity: .7;
 	cursor: pointer;
 	/*outline: 1px dotted blue;*/
 }
 
 .img-selected {
-	outline: 5px solid red;
+	outline: 5px solid #bada55;
+	opacity: .7;
 }
